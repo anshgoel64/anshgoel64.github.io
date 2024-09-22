@@ -1,0 +1,193 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #000000;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: #000000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensure the content spans the full width of the page */
+    align-items: center;
+}
+
+/* Logo styling */
+.logo {
+    margin-right: auto; /* Keeps the logo on the left side */
+}
+
+.header-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Social icons styling */
+.social-icons a img {
+    width: 20px;
+    margin-left: 15px;
+}
+
+/* Align nav and social icons to the right */
+.right-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+
+.header-logo {
+    width: 50px;             /* Adjust size as per your preference */
+    height: 50px;            /* Ensures the image is a square */
+    border-radius: 50%;      /* Makes the image circular */
+    overflow: hidden;        /* Ensures no overflow of content outside the circle */
+    object-fit: cover;       /* Ensures the image fits well inside the circle */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.hero-logo {
+    width: 150px;        /* Adjust size as per your preference */
+    height: 150px;       /* Ensure the image is a square */
+    border-radius: 50%;  /* Makes the image circular */
+    object-fit: cover;   /* Ensures the image fits well inside the circle */
+    border: 5px solid #fff; /* Optional: Add a white border around the image */
+}
+/* Section with background image */
+.text-content {
+    background: url('mission-image.jpeg') no-repeat center center; /* Add your image URL here */
+    background-size: cover; /* This will ensure the image covers the entire background */
+    padding: 50px 20px; /* Adjust padding to give space around the text */
+    color: #ffffff; /* Ensure the text is readable, change color as needed */
+    position: relative; /* Ensure the background stays with the text */
+}
+
+.text-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background behind the text */
+    padding: 60px; /* Adjust padding around the text */
+    border-radius: 10px; /* Add rounded corners to the text block */
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+.bold-text {
+    font-weight: bold;
+}
+
+/* Optional: text styling */
+.text-background h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.text-background p {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Newsletter styles */
+.newsletter {
+    background: #111;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.newsletter h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    margin-bottom: 20px;
+}
+
+/* Styling for the form */
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.subscribe-btn {
+    background: #fff;
+    color: #111;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background: #555;
+    color: #fff;
+}
